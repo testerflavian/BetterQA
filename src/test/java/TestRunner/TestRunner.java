@@ -13,6 +13,6 @@ import org.junit.runner.RunWith;
 
         dryRun = false,
         monochrome = true,
-        tags = "@S2"
+        tags = "@S5"
 )
 public class TestRunner {}

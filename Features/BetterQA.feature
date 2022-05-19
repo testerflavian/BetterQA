@@ -28,3 +28,10 @@ Examples:
      |movie_name              |release_date|popularity|vote_average|vote_count|
      |The Shawshank Redemption|1994-09-22  |68.699    |9.3         |2587691   |
      |Hacksaw Ridge           |2016-10-07  |186.393   |8.2         |10914     |
+
+     @S5
+     Scenario: Check what happens when you press enter on search but you don't search for nothing.
+       Given I open application BetterQA
+       When I search for nothing and press enter
+       Then The page should refresh or stay the same
+
